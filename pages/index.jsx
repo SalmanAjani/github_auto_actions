@@ -24,7 +24,7 @@ const Page = ({ data }) => {
       </Head>
 
       <main className={styles.main}>
-        <Heading marginBottom={20}>All Repositories</Heading>
+        <Heading marginBottom={20}>All Star Repositories</Heading>
         <Grid templateColumns="repeat(5, 1fr)" gap={6} textAlign="center">
           {data.items.map((repo) => (
             <GridItem w="100%" h="auto" key={repo.id} border="1px solid black">
